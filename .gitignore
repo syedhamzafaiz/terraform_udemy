@@ -1,0 +1,20 @@
+# Terraform directories and files
+.terraform/
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
+
+# Variable files (if containing secrets)
+terraform.tfvars
+*.tfvars.json
+
+# Sensitive keys
+*.pem
+*.key
+
+# Crash logs
+crash.log
+
+# IDE / Editor settings
+.vscode/
+.idea/
